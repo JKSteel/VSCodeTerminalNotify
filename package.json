@@ -1,0 +1,14 @@
+{
+  "name": "terminal-notify",
+  "displayName": "Terminal Notify",
+  "description": "Windows toast notification when an integrated terminal command finishes and VS Code isn't focused",
+  "version": "0.0.2",
+  "publisher": "jamiesteel-local",
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "categories": ["Other"],
+  "activationEvents": ["onStartupFinished"],
+  "main": "./extension.js",
+  "contributes": {}
+}
